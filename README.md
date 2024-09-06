@@ -22,32 +22,32 @@ Clone o repositório para a sua máquina local usando:
 
 git clone https://github.com/SEU-USUARIO/mega-sena-sorteio.git
 
-### 2. 2. Navegar para o Diretório do Projeto
+###2. Navegar para o Diretório do Projeto
 
-Entre no diretório do projeto:
+- Entre no diretório do projeto:
 
-bash | cd mega-sena-sorteio
+- bash | cd mega-sena-sorteio
 
 ### 3. Instalar Dependências
 
-Instale as dependências do projeto usando npm ou yarn:
+- Instale as dependências do projeto usando npm ou yarn:
 
-bash | npm install
+- bash | npm install
 
 ### 4. Executar o Projeto
 
-Inicie o servidor de desenvolvimento:
+- Inicie o servidor de desenvolvimento:
 
-bash | npm run dev
+- bash | npm run dev
 
-O aplicativo estará disponível em http://localhost:3000/sorteio.
+- O aplicativo estará disponível em http://localhost:3000/sorteio.
 
-### Notas Adicionais
+## Notas Adicionais
 
 Logo da Mega-Sena: O arquivo logo-mega-sena-2048.png deve estar no diretório /public.
 
 CSS Personalizado: Ajuste o arquivo styles.css e fireworks.css conforme necessário para alterar a aparência e a animação da página.
 
-### Contribuição
+## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para fazer um fork do projeto e enviar pull requests com melhorias ou correções.
