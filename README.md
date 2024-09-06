@@ -20,7 +20,7 @@ A aplicação permite que o usuário insira seis números e, ao clicar no botão
 
 Clone o repositório para a sua máquina local usando:
 
-git clone https://github.com/SEU-USUARIO/mega-sena-sorteio.git
+git clone https://github.com/pedrolduarte/mega-sena-sorteio.git
 
 ###2. Navegar para o Diretório do Projeto
 
