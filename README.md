@@ -32,7 +32,7 @@ git clone https://github.com/SEU-USUARIO/mega-sena-sorteio.git
 
 - Instale as dependências do projeto usando npm ou yarn:
 
-- bash | npm install
+- bash | npm install react next bootstrap @fontsource/roboto
 
 ### 4. Executar o Projeto
 
