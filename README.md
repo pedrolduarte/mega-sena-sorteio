@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mega-Sena Sorteio
 
-## Getting Started
+Este projeto é uma aplicação web para gerar números aleatórios de uma simulação da Mega-Sena, com uma interface visual atraente e responsiva. A aplicação usa React e Next.js, e é estilizada com Bootstrap e CSS personalizado para criar uma experiência de usuário envolvente.
 
-First, run the development server:
+## Descrição
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A aplicação permite que o usuário insira seis números e, ao clicar no botão "Gerar números da sorte", o sistema sorteia seis números aleatórios e compara com os números fornecidos pelo usuário. Os números sorteados são exibidos na tela.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias Utilizadas
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **React**: Biblioteca JavaScript para construir a interface do usuário.
+- **Next.js**: Framework para React que permite renderização do lado do servidor e geração de sites estáticos.
+- **Bootstrap**: Biblioteca de CSS para design responsivo e componentes de interface.
+- **CSS Personalizado**: Para efeitos adicionais e estilo personalizado.
+- **Fontes**: Google Fonts para tipografia.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Instalação e Execução
 
-## Learn More
+### 1. Clonar o Repositório
 
-To learn more about Next.js, take a look at the following resources:
+Clone o repositório para a sua máquina local usando:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+git clone https://github.com/SEU-USUARIO/mega-sena-sorteio.git
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 2. 2. Navegar para o Diretório do Projeto
 
-## Deploy on Vercel
+Entre no diretório do projeto:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+bash | cd mega-sena-sorteio
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 3. Instalar Dependências
+
+Instale as dependências do projeto usando npm ou yarn:
+
+bash | npm install
+
+### 4. Executar o Projeto
+
+Inicie o servidor de desenvolvimento:
+
+bash | npm run dev
+
+O aplicativo estará disponível em http://localhost:3000/sorteio.
+
+### Notas Adicionais
+
+Logo da Mega-Sena: O arquivo logo-mega-sena-2048.png deve estar no diretório /public.
+
+CSS Personalizado: Ajuste o arquivo styles.css e fireworks.css conforme necessário para alterar a aparência e a animação da página.
+
+### Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para fazer um fork do projeto e enviar pull requests com melhorias ou correções.

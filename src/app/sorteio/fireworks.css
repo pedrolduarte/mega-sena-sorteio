@@ -1,0 +1,60 @@
+/* fireworks.css */
+@keyframes fireworks {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.5);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(2);
+    }
+  }
+  
+  .fireworks {
+    position: relative;
+    height: 120px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .fireworks > div {
+    position: absolute;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    animation: fireworks 1s ease-out;
+  }
+  
+  .fireworks > div:nth-child(1) {
+    animation-delay: 0.1s;
+    background-color: #ff4d4d;
+  }
+  
+  .fireworks > div:nth-child(2) {
+    animation-delay: 0.2s;
+    background-color: #ff8c00;
+  }
+  
+  .fireworks > div:nth-child(3) {
+    animation-delay: 0.3s;
+    background-color: #ffd700;
+  }
+  
+  .fireworks > div:nth-child(4) {
+    animation-delay: 0.4s;
+    background-color: #4caf50;
+  }
+  
+  .fireworks > div:nth-child(5) {
+    animation-delay: 0.5s;
+    background-color: #2196f3;
+  }
+  
+  .fireworks > div:nth-child(6) {
+    animation-delay: 0.6s;
+    background-color: #9c27b0;
+  }
+  
