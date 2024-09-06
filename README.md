@@ -46,8 +46,6 @@ git clone https://github.com/SEU-USUARIO/mega-sena-sorteio.git
 
 Logo da Mega-Sena: O arquivo logo-mega-sena-2048.png deve estar no diretório /public.
 
-CSS Personalizado: Ajuste o arquivo styles.css e fireworks.css conforme necessário para alterar a aparência e a animação da página.
-
 ## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para fazer um fork do projeto e enviar pull requests com melhorias ou correções.
